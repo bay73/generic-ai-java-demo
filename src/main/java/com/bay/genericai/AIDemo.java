@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutionException;
 public class AIDemo {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         AiClient.Builder clientBuilder = AiClient.Companion.getBuilder(AiClient.Type.OPEN_AI);
-        clientBuilder.setApiAky("...");
+        clientBuilder.setApiKey("...");
         clientBuilder.setDefaultModel("gpt-4o");
         AiClient client = clientBuilder.build();
         AiClientJava javaClient = new AiClientJava(client);
