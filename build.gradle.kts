@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.bay73:generic-ai:0.6.5")
+    implementation("io.github.bay73:generic-ai:0.6.6")
     testImplementation(platform("org.junit:junit-bom:5.13.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
